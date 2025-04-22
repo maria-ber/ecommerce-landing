@@ -2,38 +2,72 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page de María</title>
+  <title>Ecommerce Pro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f5f5f5;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #F5F7FA;
       color: #333;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header {
+      background-color: #00C4CC;
+      color: white;
+      padding: 30px 0;
+      border-radius: 0 0 10px 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #00C4CC;
+      margin-bottom: 20px;
     }
     p {
-      font-size: 18px;
+      font-size: 1.2rem;
+      line-height: 1.6;
     }
-    a.boton {
+    .boton {
       display: inline-block;
-      margin-top: 20px;
-      background-color: #007bff;
+      background-color: #00C4CC;
       color: white;
-      padding: 12px 24px;
-      text-decoration: none;
+      padding: 15px 30px;
       border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
     }
-    a.boton:hover {
-      background-color: #0056b3;
+    .boton:hover {
+      background-color: #009BA0;
     }
   </style>
 </head>
 <body>
-  <h1>Hola, soy María</h1>
-  <p>Bienvenida a mi landing page. Aquí comparto información sobre lo que hago en innovación.</p>
-  <a class="boton" href="https://www.tendencys.com" target="_blank">Conoce Tendencys</a>
+  <header>
+    <h1>Ecommerce Pro</h1>
+  </header>
+
+  <section>
+    <h2>Optimiza tu logística y gestión de pedidos</h2>
+    <p>
+      Lleva el control total de tus órdenes, clientes y envíos con una plataforma pensada para el comercio electrónico moderno.
+      Visualiza el estado de cada pedido, automatiza procesos y mantén informados a tus clientes en cada paso.
+    </p>
+    <a class="boton" href="https://www.tendencys.com" target="_blank">Conoce más</a>
+  </section>
 </body>
 </html>
